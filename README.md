@@ -17,6 +17,8 @@ macOS
 
 `npm run electron-packager-macos`
 
+! Tested on Macbook Air - macOS Big Sur (v11.6.5)
+
 Windows
 
 `npm run electron-packager-win`
