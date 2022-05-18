@@ -17,11 +17,13 @@ macOS
 
 `npm run electron-packager-macos`
 
-! Tested on Macbook Air - macOS Big Sur (v11.6.5)
+! Tested on Macbook Air - macOS Big Sur (v11.6.5).
 
 Windows
 
 `npm run electron-packager-win`
+
+! Tested on Intel(R) Core(TM) i9-10900K - Windows 10 Pro
 
 ## 🏃🏼‍♂️ Run
 
