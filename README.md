@@ -13,7 +13,13 @@ You can now start a new 🍎 macOS / 🪟 Windows project using the latest frame
 
 ## 🏗 Build for distribution
 
-1. `npm run dist`
+macOS
+
+`npm run electron-packager-macos`
+
+Windows
+
+`npm run electron-packager-win`
 
 ## 🏃🏼‍♂️ Run
 
