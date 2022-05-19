@@ -28,6 +28,6 @@ jobs:
     - run: npm run test
       # Publish to npmjs
       if: endsWith(github.ref, 'dev')
-    - run: npm publish
-      env:
-        NODE_AUTH_TOKEN: ${{ secrets.NODE_AUTH_TOKEN  }}
+    - uses: JS-DevTools/npm-publish@v1
+      with:
+        token: ${{ secrets.NODE_AUTH_TOKEN }}
