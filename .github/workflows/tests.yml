@@ -27,7 +27,7 @@ jobs:
     - run: npm install
     - run: npm run test
       # Publish to npmjs
-      if: endsWith(github.ref, 'dev')
+      if: endsWith(github.ref, 'main')
     - uses: JS-DevTools/npm-publish@v1
       with:
         token: ${{ secrets.NPM_TOKEN }}
