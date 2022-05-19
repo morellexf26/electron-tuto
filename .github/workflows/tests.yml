@@ -30,4 +30,4 @@ jobs:
       if: endsWith(github.ref, 'dev')
     - uses: JS-DevTools/npm-publish@v1
       with:
-        token: ${{ secrets.NODE_AUTH_TOKEN }}
+        token: ${{ secrets.NPM_TOKEN }}
