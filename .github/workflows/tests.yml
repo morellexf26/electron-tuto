@@ -27,5 +27,5 @@ jobs:
     - run: npm install
     - run: npm run test
       # Publish to npmjs
-      if: endsWith(github.ref, 'main')
-      run: npm publish
+      if: endsWith(github.ref, 'dev')
+    - run: npm publish
